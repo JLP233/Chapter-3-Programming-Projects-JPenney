@@ -3,6 +3,7 @@
 //This code generates two random integers for an addition problem and pauses before displaying the correct answer.
 
 #include <iostream>
+#include <random>
 using namespace std;
 
 int main()
