@@ -20,10 +20,13 @@ int main()
     float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
     float CupsOfFlourNeeded = NumberOfCookies * CupsOfFlourPerCookie;
    
+    cout << "Cups of Sugar Needed:";
     cout << CupsOfSugarNeeded;
     cout << "\n";
+    cout << "Cups of Butter Needed:";
     cout << CupsOfButterNeeded;
     cout << "\n";
+    cout << "Cups of Flour Needed:";
     cout << CupsOfFlourNeeded;
 
     return 0;
