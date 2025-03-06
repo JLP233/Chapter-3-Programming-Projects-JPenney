@@ -1,6 +1,6 @@
 // Chapter 3 Programming Projects JPenney.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // 
-//This code calculates the number of cups of each ingredient needed for the specified number of cookies.
+//This code generates two random integers for an addition problem and pauses before displaying the correct answer.
 
 #include <iostream>
 using namespace std;
