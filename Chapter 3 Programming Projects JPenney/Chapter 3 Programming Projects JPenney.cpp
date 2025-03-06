@@ -17,9 +17,7 @@ int main()
     int randomNumber1 = dist(gen);
     int randomNumber2 = dist(gen);
 
-    cout << randomNumber1;
-    cout << "+" << randomNumber2;
-    cout << "=";
+    cout << randomNumber1 << "+" << randomNumber2 << "=";
 
   
 
