@@ -32,14 +32,14 @@ int main()
     cout << TimesInterestCompounds;
     cout << "\n";
     cout << "Principal:";
-    cout << Principal << "$";
+    cout << "$" << Principal;
     cout << "\n";
     cout << "Interest:";
     cout << fixed << setprecision(2);
-    cout << Interest << "$";
+    cout << "$" << Interest;
     cout << "\n";
     cout << "Total Amount in Savings:";
-    cout << TotalAmountInSavings << "$";
+    cout << "$" << TotalAmountInSavings;
 
     return 0;
 }
