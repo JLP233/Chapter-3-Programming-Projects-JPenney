@@ -1,6 +1,6 @@
 // Chapter 3 Programming Projects JPenney.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // 
-//This code generates two random integers for an addition problem and pauses before displaying the correct answer.
+//This code asks for the principal, the interest rate, and the number of times the interest is compounded in a savings account then calulates interest earned.
 
 #include <iostream>
 #include <random>
