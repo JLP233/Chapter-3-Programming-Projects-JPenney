@@ -3,7 +3,6 @@
 //This code asks for the principal, the interest rate, and the number of times the interest is compounded in a savings account then calulates interest earned.
 
 #include <iostream>
-#include <random>
 using namespace std;
 
 int main()
