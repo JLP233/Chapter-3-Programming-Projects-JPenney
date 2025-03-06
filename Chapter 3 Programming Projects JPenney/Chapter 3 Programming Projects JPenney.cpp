@@ -1,20 +1,25 @@
 // Chapter 3 Programming Projects JPenney.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// 
+//This code calculates the number of cups of each ingredient needed for the specified number of cookies.
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    const float CupsOfSugarPerCookie = 1.5/48;
+    const float CupsOfButterPerCookie = 1.0 / 48;
+    const float CupsOfFlourPerCookie = 2.75 / 48;
+
+    cout << "Enter the desired number of cookies:";
+    cin >> "Number of Cookies";
+   
+
+    cout << "\n";
+
+    float OceanHeightIn10Years = OceanLevelRisePerYear * Years10;
+    cout << "Number of millimeters higher than the current level that the ocean level will be in 10 years:";
+    cout << OceanHeightIn10Years;
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
