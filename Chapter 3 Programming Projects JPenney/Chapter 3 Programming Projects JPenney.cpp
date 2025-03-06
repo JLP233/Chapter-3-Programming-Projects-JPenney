@@ -20,7 +20,7 @@ int main()
     cout << "Enter the number of times interest compounds:";
     cin >> TimesInterestCompounds;
 
-    float Interest = Principal * pow(( 1 + InterestRate / TimesInterestCompounds),TimesInterestCompounds);
+    float Interest = Principal * pow(( 1 + InterestRate / TimesInterestCompounds),TimesInterestCompounds) - Principal;
 
     float TotalAmountInSavings = Interest + Principal;
 
