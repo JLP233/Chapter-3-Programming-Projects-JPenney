@@ -14,13 +14,13 @@ int main()
     cout << "Enter the Principal:";
     cin >> Principal;
 
-    cout << "Enter the interest rate:";
+    cout << "Enter the interest rate %:";
     cin >> InterestRate;
 
     cout << "Enter the number of times interest compounds:";
     cin >> TimesInterestCompounds;
 
-    float Interest = Principal * pow(( 1 + InterestRate / TimesInterestCompounds),TimesInterestCompounds) - Principal;
+    float Interest = Principal * pow(( 1 + (InterestRate / 100) / TimesInterestCompounds),TimesInterestCompounds) - Principal;
 
     float TotalAmountInSavings = Interest + Principal;
 
