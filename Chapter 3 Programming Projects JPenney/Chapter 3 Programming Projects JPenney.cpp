@@ -7,21 +7,33 @@ using namespace std;
 
 int main()
 {
-    random_device rd;
-    mt19937 gen(rd());
+    float InterestRate;
+    float TimesInterestCompounds;
+    float Principal;
+    float Interest;
+    float TotalAmountInSavings;
 
-    uniform_int_distribution<> dist(1, 999);
+    cout << "Enter the Principal:";
+    cin >> Principal;
 
+    cout << "Enter the interest rate:";
+    cin >> InterestRate;
 
-    int randomNumber1 = dist(gen);
-    int randomNumber2 = dist(gen);
+    cout << "Enter the number of times interest compounds:";
+    cin >> TimesInterestCompounds;
 
-    cout << randomNumber1 << "+" << randomNumber2 << "=";
+    float CupsOfSugarNeeded = NumberOfCookies * CupsOfSugarPerCookie;
+    float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
+    float CupsOfFlourNeeded = NumberOfCookies * CupsOfFlourPerCookie;
 
-    cin.get();
-
-    int sum = randomNumber1 + randomNumber2;
-    cout << sum;
+    cout << "Cups of Sugar Needed:";
+    cout << CupsOfSugarNeeded;
+    cout << "\n";
+    cout << "Cups of Butter Needed:";
+    cout << CupsOfButterNeeded;
+    cout << "\n";
+    cout << "Cups of Flour Needed:";
+    cout << CupsOfFlourNeeded;
 
     return 0;
 }
