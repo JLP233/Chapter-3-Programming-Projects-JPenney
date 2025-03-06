@@ -26,14 +26,20 @@ int main()
     float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
     float CupsOfFlourNeeded = NumberOfCookies * CupsOfFlourPerCookie;
 
-    cout << "Cups of Sugar Needed:";
-    cout << CupsOfSugarNeeded;
+    cout << "Interest Rate:";
+    cout << InterestRate;
     cout << "\n";
-    cout << "Cups of Butter Needed:";
-    cout << CupsOfButterNeeded;
+    cout << "Times Interest Compounded:";
+    cout << TimesInterestCompounds;
     cout << "\n";
-    cout << "Cups of Flour Needed:";
-    cout << CupsOfFlourNeeded;
+    cout << "Principal:";
+    cout << Principal;
+    cout << "\n";
+    cout << "Interest:";
+    cout << Interest;
+    cout << "\n";
+    cout << "Total Amount in Savings:";
+    cout << TotalAmountInSavings;
 
     return 0;
 }
