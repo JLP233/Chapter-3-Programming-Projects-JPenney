@@ -19,9 +19,9 @@ int main()
 
     cout << randomNumber1 << "+" << randomNumber2 << "=";
 
-  
+    int sum = randomNumber1 + randomNumber2;
+    cout << sum;
 
-   
 
     return 0;
 }
