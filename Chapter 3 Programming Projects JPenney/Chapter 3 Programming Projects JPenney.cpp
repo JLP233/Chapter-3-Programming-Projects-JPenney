@@ -22,9 +22,9 @@ int main()
     cout << "Enter the number of times interest compounds:";
     cin >> TimesInterestCompounds;
 
-    float CupsOfSugarNeeded = NumberOfCookies * CupsOfSugarPerCookie;
-    float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
-    float CupsOfFlourNeeded = NumberOfCookies * CupsOfFlourPerCookie;
+    float Interest = Principal * ( 1 + InterestRate / TimesInterestCompounds)^TimesInterestCompounds;
+
+    float TotalAmountInSavings = Interest + Principal;
 
     cout << "Interest Rate:";
     cout << InterestRate;
