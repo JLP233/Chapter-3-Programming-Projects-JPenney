@@ -17,8 +17,6 @@ int main()
     cin >> NumberOfCookies;
 
     float NumberOfCookies; 
-    float NumberOfCookies; 
-    float NumberOfCookies; 
 
     float CupsOfSugarNeeded = NumberOfCookies * CupsOfSugarPerCookie;
     float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
