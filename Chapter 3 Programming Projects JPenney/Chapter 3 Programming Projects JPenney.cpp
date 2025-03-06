@@ -8,9 +8,10 @@ using namespace std;
 
 int main()
 {
-    const float CupsOfSugarPerCookie = 1.5/48;
-    const float CupsOfButterPerCookie = 1.0 / 48;
-    const float CupsOfFlourPerCookie = 2.75 / 48;
+
+    int randomNumber1 = dist(gen);
+    int randomNumber2 = dist(gen);
+
 
     int NumberOfCookies;
 
