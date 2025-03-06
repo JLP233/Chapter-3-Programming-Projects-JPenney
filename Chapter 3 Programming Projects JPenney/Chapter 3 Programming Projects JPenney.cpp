@@ -19,6 +19,8 @@ int main()
 
     cout << randomNumber1;
     cout << "+" << randomNumber2;
+    cout << "=";
+
   
 
    
