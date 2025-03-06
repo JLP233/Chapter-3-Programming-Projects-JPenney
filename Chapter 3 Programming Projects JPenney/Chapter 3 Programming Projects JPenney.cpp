@@ -8,28 +8,17 @@ using namespace std;
 
 int main()
 {
+    random_device rd;
+    mt19937 gen(rd());
 
     int randomNumber1 = dist(gen);
     int randomNumber2 = dist(gen);
 
+    cout << randomNumber1;
+    cout << "+" << randomNumber2;
+  
 
-    int NumberOfCookies;
-
-    cout << "Enter the desired number of cookies:";
-    cin >> NumberOfCookies;
-
-    float CupsOfSugarNeeded = NumberOfCookies * CupsOfSugarPerCookie;
-    float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
-    float CupsOfFlourNeeded = NumberOfCookies * CupsOfFlourPerCookie;
    
-    cout << "Cups of Sugar Needed:";
-    cout << CupsOfSugarNeeded;
-    cout << "\n";
-    cout << "Cups of Butter Needed:";
-    cout << CupsOfButterNeeded;
-    cout << "\n";
-    cout << "Cups of Flour Needed:";
-    cout << CupsOfFlourNeeded;
 
     return 0;
 }
