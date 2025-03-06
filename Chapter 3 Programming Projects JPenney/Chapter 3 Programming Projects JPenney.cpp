@@ -3,6 +3,7 @@
 //This code asks for the principal, the interest rate, and the number of times the interest is compounded in a savings account then calulates interest earned.
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -34,6 +35,7 @@ int main()
     cout << Principal << "$";
     cout << "\n";
     cout << "Interest:";
+    cout << fixed << setprecision(2);
     cout << Interest << "$";
     cout << "\n";
     cout << "Total Amount in Savings:";
