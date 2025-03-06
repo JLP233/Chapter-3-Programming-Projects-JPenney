@@ -18,10 +18,11 @@ int main()
     int randomNumber2 = dist(gen);
 
     cout << randomNumber1 << "+" << randomNumber2 << "=";
+   
+    cin.get();
 
     int sum = randomNumber1 + randomNumber2;
     cout << sum;
-
 
     return 0;
 }
