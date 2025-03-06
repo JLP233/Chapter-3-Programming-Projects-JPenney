@@ -11,15 +11,24 @@ int main()
     const float CupsOfButterPerCookie = 1.0 / 48;
     const float CupsOfFlourPerCookie = 2.75 / 48;
 
+    int NumberOfCookies;
+
     cout << "Enter the desired number of cookies:";
-    cin >> "Number of Cookies";
+    cin >> NumberOfCookies;
+
+    float NumberOfCookies; 
+    float NumberOfCookies; 
+    float NumberOfCookies; 
+
+    float CupsOfSugarNeeded = NumberOfCookies * CupsOfSugarPerCookie;
+    float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
+    float CupsOfFlourNeeded = NumberOfCookies * CupsOfFlourPerCookie;
    
-
+    cout << CupsOfSugarNeeded;
     cout << "\n";
-
-    float OceanHeightIn10Years = OceanLevelRisePerYear * Years10;
-    cout << "Number of millimeters higher than the current level that the ocean level will be in 10 years:";
-    cout << OceanHeightIn10Years;
+    cout << CupsOfButterNeeded;
+    cout << "\n";
+    cout << CupsOfFlourNeeded;
 
     return 0;
 }
