@@ -25,19 +25,19 @@ int main()
     float TotalAmountInSavings = Interest + Principal;
 
     cout << "Interest Rate:";
-    cout << InterestRate;
+    cout << InterestRate << "%";
     cout << "\n";
     cout << "Times Interest Compounded:";
     cout << TimesInterestCompounds;
     cout << "\n";
     cout << "Principal:";
-    cout << Principal;
+    cout << Principal << "$";
     cout << "\n";
     cout << "Interest:";
-    cout << Interest;
+    cout << Interest << "$";
     cout << "\n";
     cout << "Total Amount in Savings:";
-    cout << TotalAmountInSavings;
+    cout << TotalAmountInSavings << "$";
 
     return 0;
 }
