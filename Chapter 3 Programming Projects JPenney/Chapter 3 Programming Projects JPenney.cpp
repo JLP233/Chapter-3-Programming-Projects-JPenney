@@ -16,8 +16,6 @@ int main()
     cout << "Enter the desired number of cookies:";
     cin >> NumberOfCookies;
 
-    float NumberOfCookies; 
-
     float CupsOfSugarNeeded = NumberOfCookies * CupsOfSugarPerCookie;
     float CupsOfButterNeeded = NumberOfCookies * CupsOfButterPerCookie;
     float CupsOfFlourNeeded = NumberOfCookies * CupsOfFlourPerCookie;
