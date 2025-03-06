@@ -11,6 +11,9 @@ int main()
     random_device rd;
     mt19937 gen(rd());
 
+    uniform_int_distribution<> dist(1, 100);
+
+
     int randomNumber1 = dist(gen);
     int randomNumber2 = dist(gen);
 
