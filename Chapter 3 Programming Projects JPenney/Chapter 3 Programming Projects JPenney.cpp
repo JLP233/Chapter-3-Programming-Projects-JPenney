@@ -11,7 +11,7 @@ int main()
     float TimesInterestCompounds;
     float Principal;
 
-    cout << "Enter the Principal:";
+    cout << "Enter the Principal $:";
     cin >> Principal;
 
     cout << "Enter the interest rate %:";
